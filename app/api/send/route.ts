@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 export const runtime = "edge";
 export const dynamic = "force-dynamic";
 
-const RESEND_API_KEY = "re_bnhdNtam_8CpZSvuQH456UXaJ3CVP3Fa4";
+const RESEND_API_KEY = "re_3Bk4Nx3p_7E3XQucodsZMDXqi9oVaAq1c";
 
 export async function POST() {
   const res = await fetch("https://api.resend.com/emails", {
